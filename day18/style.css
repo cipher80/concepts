@@ -1,0 +1,90 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    /* border: 2px solid black; */
+    height: 600px;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.container .list1
+{
+    /* border: 2px solid red; */
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+   
+    
+}
+.container .list2
+{
+    /* border: 2px solid blue; */
+    height: 250px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    
+}
+
+.container .list1 .list_items
+{
+    /* border: 2px solid green; */
+    border-radius: 6%;
+    width: 25%;
+    justify-content: start;
+    background-color: #e8e8f2;
+}
+.container .list1 .list_items .sublist
+{
+    /* border: 2px solid red; */
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container .list2 .list_items .sublist
+{
+    /* border: 2px solid yellow; */
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .list2 .list_items
+{
+    /* border: 2px solid green; */
+    border-radius: 6%;
+    width: 25%;
+    background-color: #e8e8f2;
+    justify-content:start;
+
+}
+.container .list1 img
+{
+  /* border: 2px solid rosybrown; */
+  height: 30px;
+  width: 30px;
+}
+.container .list2 img
+{
+  /* border: 2px solid rosybrown; */
+  height: 30px;
+  width: 30px;
+}
+.container .list2 .list_items h1{
+    padding-right: 15px;
+}
+.container .list1 .list_items h1
+
+{
+    padding-right: 15px;
+}
+

@@ -1,0 +1,35 @@
+
+
+
+.box
+{
+    height: 40px;
+    width: 250px;
+
+    border: 2px solid red;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+
+    border-radius: 20px;
+    padding-left: 10px;
+
+    /* transition-delay: 2s; */
+}
+
+.box:focus
+{
+    width: 350px;
+}
+
+.box::placeholder
+{
+    color: green;
+}

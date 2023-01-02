@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form_container
+{
+   /* border: 1px solid red; */
+   width: 500px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-color: #24333C;
+}
+
+.signup_and_login_container
+{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 30px 10px 30px;
+}
+
+.signup_and_login_container button
+{
+    border: 1px solid gray;
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#highlight
+{
+    background-color: #179B77;
+}
+
+#grey
+{
+    background-color: #435359;
+}
+
+.input_fields_container
+{
+    /* border: 1px solid blue; */
+    padding: 20px 30px;
+
+}
+
+.input_fields_container h1
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.input_fields_container .input_frames
+{
+    /* border: 1px solid red; */
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.input_fields_container .input_frames input
+{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 10px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: #fff;
+}
+
+.input_fields_container .input_frames input:focus
+{
+    outline: none;
+}
+
+#dual_input
+{
+   display: flex;
+   justify-content: space-between;
+}
+
+#dual_input input
+{
+    width: 48%;
+}
+
+#btn
+{
+   height: 55px;
+}
+
+#btn input
+{
+    font-size: 25px;
+    background-color: #1AB188;
+    color: #ffffff;
+}

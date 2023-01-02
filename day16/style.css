@@ -1,0 +1,151 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.nav_container
+{
+   /* border: 1px solid red; */
+   
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #2877ec;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px 30px;
+   position: relative;
+}
+
+.nav_container .search_container
+{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search_container .logo_frame
+{
+    /* border: 1px solid yellow; */
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.search_container .logo_frame img
+{
+    cursor: pointer;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+}
+
+.search_container .input_frame
+{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search_container .input_frame ion-icon
+{
+    font-size: 23px;
+    color: #2877ec;
+}
+
+.search_container .input_frame input
+{
+   width: 450px;
+   height: 45px;
+   padding-left: 10px;
+   font-size: 18px;
+   outline: none;
+   border: none;
+   font-weight:100;
+}
+
+
+.search_container .input_frame input::placeholder
+{
+   color: gray;
+   font-weight:100;
+}
+
+.nav_container .input_container
+{
+    /* border: 2px solid black; */
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.input_container .login_button
+{
+height: 45px;
+background-color: #fff;
+color: #2877ec;
+padding: 10px 20px;
+width: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.input_container .more_button
+{
+    height: 45px;
+    padding: 10px 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* position: relative; */
+} 
+
+.input_container .cart_button
+{
+    height: 45px;
+    padding: 10px 20px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.input_container .more_button .list
+{
+    background-color: #2877ec;
+    /* border: 2px solid yellow; */
+    list-style: none;
+    position: absolute;
+    top:85%;
+    display: none;
+    width:100%;
+    left: 0;
+    justify-content: space-between;
+    height: 40px;
+    font-size: 18px;
+}
+.input_container .more_button .list .list_items
+{
+    margin-top: 10px;
+    
+}
+.input_container .more_button:hover .list{
+    display: flex;
+}

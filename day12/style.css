@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box
+{
+    /* border: 3px solid green; */
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+  /* this is main card */
+.card_frame
+{
+   border: 2px solid black;
+   height: 400px;
+   width: 280px;
+   border-radius: 5px;
+   padding: 20px 0;
+}
+
+/* when you hover on card */
+.card_frame:hover
+{
+    background-color: #E2306C;
+    border: none;
+}
+
+/* inside this frame we get social icon */
+.icon_frame
+{
+   width: 100%;
+   /* border: 1px solid black; */
+   text-align: center;
+}
+
+.info_frame h1
+{
+    margin-bottom:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* styling icon */
+.icon_frame ion-icon
+{
+    font-size: 50px;
+}
+
+
+.info_frame
+{
+   width: 100%;
+   /* border: 1px solid black; */
+   text-align: center;
+   padding: 10px 20px;
+   margin-bottom: 20px;
+}
+
+.button_frame
+{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button_frame button
+{
+   height: 40px;
+   width: 200px;
+   border-radius: 30px;
+   background-color: black;
+   color: #fff;
+}
+
+
+
+.card_frame:hover button
+{
+    color:#E2306C;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.card_frame:hover p,
+ .card_frame:hover h1
+ .card_frame:hover ion-icon
+
+
+
+
+
+
+
+
+

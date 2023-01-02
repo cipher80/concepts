@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header
+{
+
+    color: aqua;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    background-color: brown;
+/* height:200px; */
+/* width:200px; */
+/* border:2px solid blue; */
+}
+.options
+{
+    justify-content: space-between;
+    align-items: center;
+    display:flex ;
+    
+}
+
+.options .op
+{
+ color: white;
+    margin: 0 5px;
+}

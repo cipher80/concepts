@@ -1,0 +1,71 @@
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.header
+{
+    /* border-color: red;
+    border-style: solid;
+    border-width: 2px; */
+
+    /* border: 2px solid green;    border shorthand */
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between; 
+    padding: 10px 80px; 
+   
+   
+    /* margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 200px; */
+
+    /* margin: 20px;              margin shorthands for all sides  */
+    /* margin: 20px 30px;            margin shorthands for (top bottom) (right left) respectively sides  */
+    /* margin: 20px 30px 40px 50px;   margin shorthands for (top right bottom left) respectively sides */
+
+    background-color: #080829;
+    color: #ffffff;
+}
+
+.logo
+{
+    cursor: pointer;
+}
+
+.options
+{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.option
+{
+    cursor: pointer;
+}
+
+.btn
+{
+    width: 120px;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #266CDE;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

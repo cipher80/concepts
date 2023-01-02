@@ -1,0 +1,13 @@
+/* this is the example of external css */
+
+#box1 {
+    height: 200px;
+    width: 100px;
+    background: blue;
+}
+
+#box2 {
+    height: 200px;
+    width: 120px;
+    background: red;
+}

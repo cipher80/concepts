@@ -1,0 +1,21 @@
+ul{
+    display: flex;
+    font-size: 20px;
+    /* border: 2px solid blue; */
+    list-style: none;
+
+}
+.header
+{
+  border: 1px solid red;
+  text-align: center;
+}
+.header h1
+{
+    
+}
+
+li{
+    /* border: 1px solid re; */
+    margin: 0px 10px;
+}
